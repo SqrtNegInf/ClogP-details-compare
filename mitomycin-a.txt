@@ -1,0 +1,38 @@
+ +-----------------------------------------------------------------------------+
+ |    NAME: MITOMYCINA                                                         |
+ +-----------------------------------------------------------------------------+
+                                                                                 
+ +-----------------------------------------------------------------------------+
+ |  SMILES: COC4=C(C)C(=O)C2=C(C(COC(N)=O)C3(OC)C1NC1CN23)C4=O                 |
+ +-----------------------------------------------------------------------------+
+                                                                                 
+ +----------+------+----------------------------------------+----------+-------+
+ |  Class   | Type |    Log(P) Contribution Description     | Comment  | Value |
+ +----------+------+----------------------------------------+----------+-------+
+ |Fragment  | # 1  | Ether [AV]                             |Measured  | -1.200|
+ |Fragment  | # 2  | Carbonyl [WW]                          |Measured  |  -.840|
+ |Fragment  | # 3  | NH2-Carbamate [A]                      |Measured  | -1.580|
+ |Fragment  | # 4  | Ether [AA]                             |Measured  | -1.820|
+ |Fragment  | # 5  | Secondary amine [RR]                   |Measured  | -1.770|
+ |Fragment  | # 6  | Tertiary amine [RRW]                   |Measured  | -1.250|
+ |Fragment  | # 7  | Carbonyl [WW]                          |Measured  |  -.840|
+ |Carbon    |      | 13 aliphatic isolating carbons         |          |  2.535|
+ |ExFragment|Branch| 2 chain and 5 cluster branches         |Combined  |  -.910|
+ |ExFragment|Branch| 2 non-halogen, polar group branches    |Group     |  -.440|
+ |ExFragment|Hydrog| 16 hydrogens on isolating carbons      |          |  3.632|
+ |ExFragment|Bonds | 3 chain and 16 alicyclic (net)         |Combined  | -1.800|
+ |ExFragment|Mbonds| 2 double, 0 triple (isolated bonds)    |          |  -.060|
+ |Proximity |YCY   | Fragments #1 & #7                      |          |   .653|
+ |Proximity |YCY   | Fragments #2 & #6                      |          |   .669|
+ |Proximity |YCY   | Fragments #4 & #6                      |          |   .982|
+ |Proximity |YCCY  | 2 pairs (#2/1,2/7)                     |Floor     |   .400|
+ |Proximity |YCCY  | 2 pairs (#7/2,7/6)                     |Floor     |   .400|
+ |Proximity |YCCY  | 2 pairs (#5/4,5/6)                     |Floor     |   .639|
+ |Proximity |YCCY  | 1 pair (#6/5)                          |Floor     |   .453|
+ |Proximity |YCCCY | 1 pair (#7/3)                          |          |   .363|
+ |Screen    |      | Methyl ether (aliphatic)               |          |   .140|
+ |Screen    |      | Methyl ether (aliphatic)               |          |   .140|
+ +----------+------+----------------------------------------+----------+-------+
+ |RESULT    |DB=30 | All fragments measured                 |CLOGP=5.9 | -1.504|
+ +----------+------+----------------------------------------+----------+-------+
+                                                                                 
